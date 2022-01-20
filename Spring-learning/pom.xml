@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>Spring-learninig</artifactId>
+    <artifactId>Spring-learning</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Spring-learning</name>
     <description>Spring-learning</description>

@@ -1,13 +1,13 @@
-package com.example.springlearninig;
+package com.example.springlearning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringLearninigApplication {
+public class SpringLearningApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringLearninigApplication.class, args);
+        SpringApplication.run(SpringLearningApplication.class, args);
     }
 
 }
