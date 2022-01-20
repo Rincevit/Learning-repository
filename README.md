@@ -1,1 +1,2 @@
-# Repo
+# Repository for learning purpose
+
