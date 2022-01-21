@@ -13,7 +13,7 @@ public class LoginProcessor {
         String username = this.getUsername();
         String password = this.getPassword();
 
-        if ("kuba".equals(username) && "password".equals(password)) {
+        if ("username".equals(username) && "password".equals(password)) {
             return true;
         } else {
             return false;
