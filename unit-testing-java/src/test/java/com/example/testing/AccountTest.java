@@ -3,8 +3,7 @@ package com.example.testing;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AccountTest {
 
@@ -29,6 +28,18 @@ public class AccountTest {
 
         //then
         assertTrue(account.isActive());
+    }
+
+    @Test
+    void newlyCreatedAccountShouldNotHaveDefaultDeliveryAddressSet() {
+        //given
+        Account account = new Account();
+
+        //when
+        Address address = account.getDefaultDeliveryAddress();
+
+        //then
+        assertNull(address);
     }
 
 }
